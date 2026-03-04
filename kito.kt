@@ -31,7 +31,7 @@ var air = 0.0
 while (air < torent_ml) {
  
  // 5 menit sekali dikali 2
- if ( waktu != 0 && waktu % 300 == 0 ) {
+ if ( waktu % 300 == 0 ) {
     debit *= 2
  }
 
