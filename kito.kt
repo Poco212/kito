@@ -12,17 +12,24 @@ val diameter = 4.0
 
 //tinggi
 val tinggi = 6.0 
-
-//total waktu
-var waktu = 0.0 //detik 
-
+ 
 //radius
 val radius = diameter / 2
 
-// volume torrent
+// volume torrent M3
 val torent = PI * radius.pow(2) * tinggi
 
-println (torent)
+//konversi M3 ke ML
+val torent_ml = torent * 1000000
+
+//total waktu
+var waktu = 0.0 //detik
+
+//total air
+var air = 0
+
+
+println (torent_ml)
 
 
 
