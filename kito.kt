@@ -28,6 +28,13 @@ var waktu = 0.0 //detik
 //total air
 var air = 0
 
+while () {
+}
+
+
+
+
+
 
 println (torent_ml)
 
