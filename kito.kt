@@ -1,13 +1,25 @@
-fun main() {
-// diameter
-val diameter = 4.0    // meter
+import kotlin.math.PI
 
-//tinggi
-val tinggi = 6.0 // meter
+
+fun main() {
 
 //debit per detik
-var debit = 200.0 //dijadikan ke detik 
+var debit = 200.0 
 
+// diameter
+val diameter = 4.0    
+
+//tinggi
+val tinggi = 6.0 
+
+//total waktu
+var waktu = 0.0 //detik 
+
+//radius
+val radius = diameter / 2
+
+// volume torrent
+val torent = vi 
 
 
 
