@@ -22,11 +22,11 @@ val torent = PI * radius.pow(2) * tinggi
 //konversi M3 ke ML
 val torent_ml = torent * 1000000
 
-//total waktu
-var waktu = 0.0 //detik
+//total waktu dalam detik
+var waktu = 0 
 
-//total air
-var air = 0
+//total air dalam ml
+var air = 0.0 
 
 while (air < torent_ml) {
  
@@ -39,7 +39,8 @@ air += debit
 waktu++
 }
 
-val jam = waktu / 3600
-println ("Waktu yang dibutuhkan adalah $jam")
+//konversi detik ke jam"
+val jam = waktu / 3600.0
 
+println ("Waktu yang dibutuhkan adalah %.2f jam".format(jam))"
 }
