@@ -42,5 +42,5 @@ waktu++
 //konversi detik ke jam"
 val jam = waktu / 3600.0
 
-println ("Waktu yang dibutuhkan adalah %.2f jam".format(jam))"
+println ("Waktu yang dibutuhkan adalah %.2f jam".format(jam))
 }
