@@ -31,14 +31,15 @@ var air = 0
 while (air < torent_ml) {
  
  // 5 menit sekali dikali 2
- if ( waktu %300 == 0 ) {
-debit *= 2
+ if ( waktu != 0 && waktu %300 == 0 ) {
+    debit *= 2
  }
 
-
-
+air += debit
+waktu++
 }
 
-println (torent_ml)
+val jam = waktu / 3600
+println ("Waktu yang dibutuhkan adalah $jam")
 
 }
