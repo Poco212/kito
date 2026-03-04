@@ -28,7 +28,7 @@ var waktu = 0.0 //detik
 //total air
 var air = 0
 
-while ( air ) {
+while (air < torent_ml) {
  
  // 5 menit sekali dikali 2
  if ( waktu %300 == 0 ) {
