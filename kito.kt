@@ -28,16 +28,17 @@ var waktu = 0.0 //detik
 //total air
 var air = 0
 
-while () {
+while ( air ) {
+ 
+ // 5 menit sekali dikali 2
+ if ( waktu %300 == 0 ) {
+debit *= 2
+ }
+
+
+
 }
 
-
-
-
-
-
 println (torent_ml)
-
-
 
 }
