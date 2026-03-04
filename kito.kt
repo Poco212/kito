@@ -19,7 +19,9 @@ var waktu = 0.0 //detik
 val radius = diameter / 2
 
 // volume torrent
-val torent = vi 
+val torent = PI * radius
+
+println (torent)
 
 
 
