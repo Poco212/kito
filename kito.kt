@@ -1,4 +1,5 @@
 import kotlin.math.PI
+import kotlin.math.pow
 
 
 fun main() {
@@ -19,7 +20,7 @@ var waktu = 0.0 //detik
 val radius = diameter / 2
 
 // volume torrent
-val torent = PI * radius
+val torent = PI * radius.pow(2) * tinggi
 
 println (torent)
 
